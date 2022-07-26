@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/poppins-v20-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-300.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/poppins-v20-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-900.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+body{
+background-color:#171717;
+background-image:url(../img/BpH--upRlCs.png);
+background-repeat: no-repeat;
+background-position: 65% -20%;
+/* opacity: 0.6;  */
+
+}
+
+.wrapper{
+    max-width: 1273px;
+    max-height: 773px;
+    /* background-color: aliceblue; */
+margin: 23px 163px;
+}
+header{
+    height: 54px;
+    /* background-color: rgb(230, 197, 197); */
+    display:flex;   
+justify-content: flex-start;
+/* background-color: black; */
+}
+/* .nav{
+    margin-left: auto;  
+    display: inline-block;
+} */
+.nav__list{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+   ;
+    list-style: none;
+    display: flex;
+    
+}
+.nav__list li{
+    padding-top: 15px;
+    padding-right: 67px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__img{
+    padding-top: 15px;
+    position: absolute;
+    padding-left: 1450px;  
+}
+.nav a:hover{
+    color: #763D34;
+}
+main{
+    height: 512px;
+    width: 850px;
+    /* background-color:blue; */
+   margin-top: 126px;
+}
+
+h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 135px;
+/* identical to box height */
+text-transform: uppercase;
+color:  #FFFFFF;
+
+}
+main span{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 135px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #763D34;
+}
+
+main p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+main button{
+    background-color:#171717;
+    margin-top: 27px;
+    width: 236px;
+height: 70px;
+margin-right: 31px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 42px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+main button:hover{
+    background-color:  #763D34;
+}
+.main__p_under_img{
+    margin-top: 114px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.135em;
+    text-transform: uppercase;
+   color: #FFFFFF;
+}
+.main__img{
+    margin-top: 10px;
+    position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img__num li{
+    list-style: none;
+    display: inline;
+    padding-right: 147px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 275;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
